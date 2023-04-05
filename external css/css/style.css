@@ -1,0 +1,187 @@
+/* #word {
+  color: pink;
+}
+
+.word {
+  color: red;
+}
+
+h1 {
+  color: green;
+} */
+
+/* Class selector */
+/* .word {
+  background-color: yellow;
+} */
+
+/* ID Selector */
+/* #af {
+  background-color: violet;
+} */
+
+/* Element type Selector */
+/* h1 {
+  color: red;
+}
+
+img{
+    width: 360px;
+    height: 500px;
+} */
+
+/* a{
+
+} */
+
+/* Descendant Selector */
+/* .parent .child {
+  color: red;
+} */
+
+/* Child Combinot Selector */
+/* .parent > .child {
+  color: red;
+} */
+
+/* .box .child {
+  color: green;
+} */
+
+/* .box > .child {
+  color: green;
+} */
+
+/* .box > p {
+    color: green;
+  } */
+
+/* .box p {
+  color: green;
+} */
+
+/* General Sibling Combinator */
+/*h2 ~ p {
+  color: blue;
+} */
+
+/* ~ --> Ozu ile eyni seviyyeli butun elementler  */
+/* p + p {
+  color: violet;
+} */
+
+/* Adjacent Sibling Selector  */
+/* p + p {
+  color: violet;
+} */
+
+/* input {
+  background-color: aqua;
+} */
+
+/* ATTRIBUTE TYPE SELECTOR */
+/* input[type="text"],
+input[type="number"] {
+  background-color: blueviolet;
+} */
+
+/* input[type="number"] {
+  background-color: red;
+} */
+
+/* .element1,
+.element2,
+.element3 {
+  background-color: orange;
+} */
+
+/* input[my-atr="b"] {
+  background-color: orangered;
+} */
+
+/* 100 */
+/* #another-word {
+  background-color: orangered;
+} */
+
+/* 10 */
+/* .word {
+  background-color: olivedrab;
+}
+
+/* 1 */
+/* h1 {
+  background-color: yellow;
+}  */
+
+/* 111 */
+/* #another-word .word h1{
+    background-color: green;
+} */
+
+/* *{
+    background-color: blue;
+} */
+
+/* 10 */
+/* .sentence{
+    background-color: red;
+}
+
+/* 1 */
+/* h1{
+    background-color: aqua;
+} */
+
+/* h1{
+    background-color: orange;
+} */
+
+/* 100 */
+/* #long-sentence{
+    background-color: violet;
+} */
+
+/* li:first-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: green;
+}
+
+li:nth-child(1) {
+  color: blue;
+}
+
+li:last-child {
+  color: red;
+}
+
+p:first-child {
+  color: blueviolet;
+}
+
+p:nth-child(4) {
+  color: blue;
+} */
+
+/* p::first-letter {
+  color: red;
+  font-size: 64px;
+} */
+
+h1 {
+  /* color: rgb(3, 106, 106);
+  color: #000; */
+
+  /* color: rgba(255, 0, 0, 0.381); */
+  /* color: hsla(60, 20%, 50%, 0.549); */
+
+  /* 0-255 */
+  /* 0-f */
+}
+
+/* h1 {
+  display: inline-block;
+} */

@@ -1,0 +1,46 @@
+.parent {
+  display: flex;
+  gap: 10px;
+}
+
+#child1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 10px;
+
+  /* margin-top: 90px; */
+  /* padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; */
+  /* Ilk deyer yuxaridan ashagidan */
+  /* Sagdan ve soldan olan deyer */
+  /* padding: 10px 50px; */
+
+  /* 10px yuxaridan */
+  /* 50px sagdan ve soldan */
+  /* 70px ashagidan olan mesafe */
+  /* padding: 10px 50px 70px; */
+
+  /* 50px yuxaridan */
+  /* 20px sagdan */
+  /* 30px ashagidan */
+  /* 60px soldan */
+  /* padding: 50px 20px 30px 60px; */
+  /* margin: 10px; */
+  /* box-sizing: content-box; */
+  /* border: 10px dotted yellow; */
+  box-sizing: border-box;
+}
+
+#child2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  /* margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-right: 10px; */
+  /* margin: 10px; */
+}
