@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  border: 1px solid gray;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+img {
+  width: 300px;
+}
+
+.card-desc {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.card-desc h2 {
+  margin-bottom: 10px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.card-links {
+  padding: 10px;
+}
+
+.card-links a {
+  color: blue;
+}
+
+.card-links a:last-child {
+  margin-left: 20px;
+}

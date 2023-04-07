@@ -1,0 +1,146 @@
+body {
+  height: 1000vh;
+}
+
+.parent {
+  width: 900px;
+  height: 600px;
+  background-color: red;
+  position: relative;
+
+  display: flex;
+  gap: 10px;
+}
+
+.child,
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+#child1 {
+  background-color: aqua;
+  /* margin-top: 20px; */
+  /* position: relative; */
+  z-index: 1;
+}
+
+#child2 {
+  background-color: yellow;
+  /* position: absolute; */
+  /* position: relative; */
+  /* top: 20px;
+  left: 50px; */
+  /* right: 10px; */
+  /* top: 40px;
+  z-index: 1; */
+  /* position: fixed; */
+  z-index: 9;
+  position: sticky;
+}
+
+#child3 {
+  background-color: #1afd01;
+}
+
+/* Relative elementin oz yerinden mesafesini deyishir */
+/* Absolute elementin parent-inden olan mesafesini deyishir */
+
+/* .box {
+  background-color: pink;
+  position: sticky;
+  top: 0;
+}
+
+.box:hover {
+  background-color: red;
+}*/
+
+.btn:hover + .words {
+  display: none;
+}
+
+/* .btn:hover + .word1 {
+  display: none;
+} */
+
+/* input:focus {
+  background-color: red;
+}
+
+.active:active {
+  background-color: red;
+} */
+
+a:visited {
+  color: red;
+}
+
+button:hover + .hello {
+  color: red;
+}
+
+button:hover + p {
+}
+
+li::selection {
+  background-color: red;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: relative;
+  border: 1px solid pink;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  border-style: solid;
+  border-width: 0 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0 10px 10px;
+  border-color: red green white transparent;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+
+  position: relative;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+
+  position: absolute;
+  /* top: 100px; */
+  bottom: 0;
+  right: 0;
+}
+
+p:hover {
+  color: red;
+}
+
+
+/* hover */
+/* position
+ */
