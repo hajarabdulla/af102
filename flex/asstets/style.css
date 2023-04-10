@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  width: 23%;
+  height: 200px;
+  background: pink;
+  /* margin: 20px; */
+  font-size: 64px;
+  padding-top: 20px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.d-flex {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* align-items: baseline; */
+  /* height: 90vh;
+  border: 5px solid blue;
+  margin: 20px; */
+
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+}
+
+/* 576px AND down */
+/* 576-768 */
+/* 768-992 */
+/* 992-1200 */
+/* 1200-1400 */
+/* 1400 and up */
+
+@media (max-width: 576px) {
+  .block {
+    width: 100%;
+  }
+
+  .bg-red {
+    background-color: rgb(111, 255, 169);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .block {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media (min-width: 992px) { 
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: pink;
+  cursor: pointer;
+}
+
+.btn-1 {
+  padding: 10px;
+}
+
+.btn-2 {
+  padding: 20px;
+}

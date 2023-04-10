@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* % --> parentin mueyyen geder faizini tutur */
+/* .block {
+  width: 500px;
+  height: 600px;
+  background-color: blue;
+}
+
+.child-block {
+  width: 50%;
+  height: 200px;
+  background-color: red;
+} */
+
+/*! vw- view width */
+/*! vh - view height */
+/* .block {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+} */
+
+/* 1em = 16px */
+/* .parent-block {
+  font-size: 20px;
+} */
+
+/* .block { */
+/*80px*/ /*100px*/
+/* width: 5em;  */
+/*64px*/ /*80px*/
+/* height: 4em;  */
+/* background-color: aqua; */
+/* } */
+
+/* 1rem = 16px */
+.parent-block {
+  font-size: 20px;
+}
+.block {
+  width: 5rem;
+  height: 4rem;
+  background-color: aqua;
+}
