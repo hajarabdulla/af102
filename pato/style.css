@@ -1,0 +1,28 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 370px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+  }
+}
