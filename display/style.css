@@ -1,0 +1,50 @@
+p {
+  /* display: none; */
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+.item-1{
+    background-color: aquamarine;
+    display: block;
+
+    width: 100px;
+    height: 100px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.item-2{
+    background-color: pink;
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.item-3{
+    background-color: orange;
+    display: inline;
+
+    width: 100px;
+    height: 100px;
+    
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Inline elementlere width ve height vermek olmur */
+/* Margin top ve margin bottom goturmur */
+
+/* block and inline */
