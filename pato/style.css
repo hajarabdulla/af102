@@ -1,28 +1,69 @@
-.container {
-  width: 1440px;
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img {
-  width: 370px;
+#food {
+  padding: 77px 0 130px;
+}
+
+/* 100% of section */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .cards {
   display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card {
   width: 30%;
+  padding: 30px 15px 0;
+}
+
+/* Gallery */
+#gallery {
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg.webp");
+  text-align: center;
+  padding: 135px 0 158px;
+  background-position: center;
+}
+
+span {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.gallery-title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 6px;
 }
 
 @media (max-width: 768px) {
-  .card {
-    width: 100%;
+  .cards {
+    flex-wrap: wrap;
   }
 
-  img{
+  .card {
     width: 100%;
   }
 }
