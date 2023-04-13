@@ -1,0 +1,9 @@
+$backgroundColor: blue;
+
+@mixin faridsBox($faridsContent: center, $direction: row-reverse) {
+    display: flex;
+    align-items: center;
+    justify-content: $faridsContent;
+    gap: 20px;
+    flex-direction: $direction;
+  }

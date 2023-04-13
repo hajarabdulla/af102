@@ -1,0 +1,60 @@
+@use "variable";
+
+@import "./reset";
+@import "./variable.scss";
+@import "./mixin";
+
+header {
+  background-color: $backgroundColor;
+  @include faridsBox;
+
+  h1 {
+    color: $color;
+    font-size: $fontSize;
+  }
+
+  h2 {
+    color: $primaryColor;
+  }
+
+  span {
+    font-size: $fontSize;
+  }
+}
+
+div {
+  background-color: variable.$backgroundColor;
+  // @include faridsBox(center, column-reverse);
+}
+
+// %error-button{
+//   background-color: red;
+//   color: #fff;
+//   border-radius: 10px;
+//   cursor: pointer;
+//   border: none
+// }
+
+@mixin error($color) {
+  background-color: $color;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.error {
+  @include error(red);
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+.success {
+  @include error(green);
+
+  &:hover {
+    background-color: goldenrod;
+  }
+}
