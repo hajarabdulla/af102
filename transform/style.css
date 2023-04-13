@@ -41,7 +41,7 @@ div {
 
   /* transform: skewX(89deg); */
 
-  width: 300px;
+  /* width: 300px; */
   overflow: hidden;
   /* background-color: red; */
 }
@@ -55,7 +55,7 @@ div {
 }
 
 .ease-in {
-  transition-timing-function: ease-in;
+  transition-timing-function:// ease-in;
 }
 
 .ease-out {
@@ -81,8 +81,74 @@ img {
   margin: 50px;
 }
 
-
-
 img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+body {
+  background-color: pink;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+
+  /* animation-name: changeMovement; */
+  /* animation-name: changeColor; */
+  /* animation-duration: 3s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-timing-function: cubic-bezier(.01,.87,.89,.04); */
+  /* animation-delay: 3s; */
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes changeColor {
+  /* from {
+    background-color: blue;
+  }
+  to {
+    background-color: yellow;
+  } */
+
+  0% {
+    background-color: red;
+  }
+  10% {
+    background-color: green;
+  }
+  20% {
+    background-color: pink;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+/* @keyframes changeMovement {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, 0);
+  }
+  50% {
+    transform: translate(200px, 200px);
+  }
+  75% {
+    transform: translate(0, 200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+.light-mode {
+  background: #fff;
+  color: #000;
 }
