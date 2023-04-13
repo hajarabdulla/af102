@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./mixin";
+
+.btn-deafult {
+  @include buttonColor($defaultColor, $color);
+}
+
+.btn-primary {
+  @include buttonColor($primaryColor, $color);
+}
+
+.btn-secondary {
+  @include buttonColor($secondaryColor, $color);
+}
