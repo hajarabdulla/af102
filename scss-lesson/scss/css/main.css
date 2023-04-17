@@ -1,0 +1,26 @@
+.btn-deafult {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #D14D72;
+  color: #fff;
+}
+
+.btn-primary {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #FFABAB;
+  color: #fff;
+}
+
+.btn-secondary {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #FCC8D1;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
